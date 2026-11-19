@@ -11,7 +11,7 @@ const produtoService = {
         const resposta =  await api.get(`produtos/${id}`);
         return resposta.data;
       }
-  
+      
       }
     
 
