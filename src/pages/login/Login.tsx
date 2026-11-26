@@ -19,7 +19,7 @@ function Login() {
 
     try{
       await authService.logar(email, senha);
-      navigate('\admProdutos')
+      navigate('/admProdutos')
      } catch {
       setErro('Não foi possível entrar. Email ou senha incorretos!!!');
      } finally {

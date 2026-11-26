@@ -49,11 +49,11 @@ const visiveis = produtos.filter(produto =>
               return<Card
               id={produto.id}
               key={produto.id}
-              chocolate={`http://localhost:3000${produto.imagem}`}
+              chocolat={`http://localhost:3000${produto.imagem}`}
               nome={produto.nome}
-              descricao={produto.descricaoCurta}
+              descrição={produto.descricaoCurta}
               valor={produto.precoPorKg}
-              quantidadedeAvaliacoes={10}
+              quantidadeAvaliações={10}
               nota={9.5} />
 })}
           </div>

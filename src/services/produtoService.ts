@@ -26,7 +26,7 @@ const produtoService = {
       const resposta = await api.put<Produto>(`produtos/${id}`,dados);
       return resposta.data;
     },
-    async excluir(i:number){
+    async excluir(id:number){
       await api.delete(`produtos/${id}`)
     }
 }
